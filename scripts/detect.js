@@ -75,6 +75,7 @@ function detect(msg) {
         })
     }
     az.clear_input("my_textarea", 1)
+    az.focus_element("my_textarea", 1)
 
 } else {
     az.animate_element("my_textarea", 1, {
